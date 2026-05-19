@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container{
+    max-width: 1290px;
+    padding: 0 20px;
+    margin: 0 auto; 
+    background-color: #c05757; 
+}
+.ein-box{
+    text-align: center;
+    
+}
+.ein-box h1{
+    font-size: 40px;
+    font-weight: 700;
+    color:#152032 ; 
+    text-align: center;  
+}
+.ein-box p{
+    font-size:20px;
+    color: #686868;
+}

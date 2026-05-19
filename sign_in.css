@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.start-section{
+    padding: 20px;
+    display: flex;
+
+}
+.box-section{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    margin-left: 60px;
+}
+.one-box{
+    display: flex;
+    gap: 170px;
+    margin-top: 95px;
+}
+.one-box img{
+    width: 240px;
+    height: 67px;
+}
+
+.box-section h1{
+    font-weight: 400;
+    font-size: 86px;
+    color: #000000;
+    letter-spacing: 4%;
+    line-height: 100%;
+    font-style: Bold;
+    margin-top: 75px;
+}
+.box-section input{
+    width: 454px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #8F8F8F;
+    text-align: center;
+   
+}
+.box-section button{
+    width: 444px;
+    height: 54px;
+    border-radius: 10px;
+}
+.box-section button:hover{
+    transition: all 0.6 ease;
+    transform: scale(1.04);
+    transform: rotate(2px);
+    color: #FFFFFF;
+    background-color: #009688;
+}
+.box-section a{
+    font-size: 26px;
+    font-weight: 400;
+    color: #8F8F8F;
+    text-decoration: dashed;   
+}
+.two-box{
+    width: 670px;
+    height: 814px;
+    border-radius: 40px;
+    background-color: #009688;
+    
+}
+.two-box img{
+    padding:70px;
+    width: 545px;
+    height: 535px;
+}
+.two-box h2{
+    font-size: 36px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}

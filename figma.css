@@ -597,7 +597,321 @@
        display: grid;
        grid-template-columns: repeat(2,1fr); 
     }
+    .six-box{
+        width: 356px;
+        height: 320px;
+    }
+    .six-box h4{
+        font-size: 15px;
+    }
+    .six-box-bottom img{
+        width: 45px;
+        height: 45px;
+    }
 }
+@media(max-width:500px){
+    .center-six h1{
+        font-size: 30px;
+    }
+    .center-six p{
+        font-size: 10px;
+    }
+    .six-boxes{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+    }
+    .six-box{
+        width: 336px;
+        height: 300px;
+    }
+    .six-box h4{
+        font-size: 13px;
+    }
+    .six-box-bottom img{
+        width: 40px;
+        height: 40px;
+    }
+}
+/* oltinchi section mediasi tugadi */
+/* yettinchi section boshlandi */
+.center-seven{
+    margin-top: 140px;
+    text-align: center;
+    align-items: center;
+}
+.center-seven h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+.center-seven p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #686868;
+    margin-top: 16px;
+}
+.seven-boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sev-box{
+    border: 1px solid #000000;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.sev-box p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000000;
+    padding: 20px;
+}
+.big{ 
+    grid-row: 1 / span 2;
+}
+.big h5{
+    font-size: 22px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* yettinchi section mediasi boshlanmoqda */
+@media(max-width:900px){
+    .center-seven{
+        margin-top: 100px;
+    }
+    .center-seven h1{
+        font-size: 33px;
+    }
+    .center-seven p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .seven-boxes{
+        display: block;
+        grid-template-columns: repeat(1fr);
+    }
+}
+@media(max-width:500px){
+    .center-seven{
+        margin-top: 90px;
+    }
+    .center-seven h1{
+        font-size: 28px;
+    }
+    .center-seven p{
+        font-size: 12px;
+        margin-top: 9px;
+    }
+    .sev-box{
+        width: 450px;
+        height: 70px;
+        margin-top: 15px;
+    }
+    .sev-box p{
+        font-size: 18px;
+    }
+}
+/* yettinchi section mediasi tugadi */
+
+/* sakkizinchi section boshlandi */
+.eight-boxes{
+    display: flex;
+    margin-top: 140px;
+}
+.eight-boxes-left{
+    width: 709px;
+    height: 465px;
+    background-color: #FAE9D3;
+    padding: 30px;
+}
+.eight-boxes-left h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #D28527;
+    margin-top: 45px;
+}
+.eight-boxes-left p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #D28527;
+    margin-top: 20px;
+    
+}
+.eight-boxes-right{
+    background-color: #F9F7F3;
+    width: 470px;
+    height: 465px;
+    padding: 30px;
+}
+.eight-boxes-right h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    align-items: center;
+    margin-top: 45px;
+}
+.eight-boxes-right p{
+    font-size: 16px;
+    color: #152032;
+    line-height: 20px;
+    font-weight: 500;
+}
+.eight-boxes-right-input{
+    width: 371px;
+    height: 47px;
+    border-radius: 7px;
+    border: 1px solid #68686880;
+    margin-top: 20px;
+    text-align: center;
+}
+.eight-boxes-right button{
+    width: 371px;
+    height: 47px;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-top: 22px;
+}
+.eight-boxes-right button:hover{
+    transition: all 0.6 ease;
+    transform: scale(1.04);
+    background-color: #009688;
+    color: #FFFFFF;
+}
+/* sakkizinchi section mediasi */
+@media(max-width:900px){
+    .eight-boxes{
+        margin-top: 100px;
+    }
+    .eight-boxes-left h1{
+        font-size: 28px;
+    }
+    .eight-boxes-left p{
+        font-size: 19px;
+    }
+    .eight-boxes-right h1{
+        font-size: 28px;
+    }
+    .eight-boxes-right-input{
+        width: 300px;
+        height: 40px;
+    }
+    .eight-boxes-right button{
+        width: 270px;
+        height: 30px;
+    }
+}
+@media(max-width:500px){
+    .eight-boxes{
+        margin-top: 80px;
+        display: block;   
+    }
+    .eight-boxes-left{
+        width: 450px;
+        height: 300px;
+    }
+    .eight-boxes-left h1{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .eight-boxes-left p{
+        font-size: 15px;
+    }
+    .eight-boxes-right{
+        width: 450px;
+        height: 370px;
+    }
+    .eight-boxes-right h1{
+        font-size: 25px;
+        margin-top: 22px;
+    }
+    .eight-boxes-right h1{
+        font-size: 25px;
+    }
+    .eight-boxes-right-input{
+        width: 250px;
+        height: 35px;
+    }
+    .eight-boxes-right button{
+        width: 250px;
+        height: 30px;
+    }
+}
+/* sakkizinchi section mediasi tugadi */
+/* footer qismi boshlanmoqda */
+
+.footer-box{
+    background-color: #009688;
+    margin-top: 70px;
+    
+}
+.footer-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    
+}
+.footer-center img{
+   width: 140px;
+   height: 76px;
+   margin-top: 38px; 
+   margin: 0 auto;
+   
+}
+.footer-hreflari{
+    display: flex;   
+    gap: 48px;
+    margin: 0 auto;
+    
+}
+.footer-hreflari a{
+    text-decoration: dashed;
+    color: #FFFFFF;  
+}
+.footer-hreflari a:hover{
+    transition: all 0.5 ease;
+    transform: scale(1.03);
+    color: #0526cd;
+}
+
+.footer-center .two-photo {
+    width: 363px;
+    height: 24px;
+    margin:0 auto;
+    
+}
+.chiziq{
+    border: 1px solid #FFFFFF;
+    margin-top: 48px;
+}
+.footer-box p{
+    text-align: center;
+    margin-top: 48px; 
+    padding-bottom: 38px;
+    color: #FFFFFF;
+}  
+@media(max-width:900px){
+    .footer-center img{
+        width: 130px;
+        height: 66px;
+    }
+    .footer-two-photo img{
+        width: 350px;
+        height: 22px;
+    }
+}         
+
+
+
+
 
 
     

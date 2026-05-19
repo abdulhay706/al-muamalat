@@ -1,4 +1,4 @@
-console.log("Hello World");
+// console.log("Hello World");
 // ozgaruvchini elon qilish uchun kalit sozlar: var, let, const
 // console.log(a);
 // var a = 10;

@@ -26,19 +26,19 @@
 // const fam="asdasdasd"
 
 
-//Boolean--{true, false}
-const isActive=false
-const isAdd=true
+// //Boolean--{true, false}
+// const isActive=false
+// const isAdd=true
 
 
-//  null
-let a=null
-a=12
-console.log(a);
+// //  null
+// let a=null
+// a=12
+// console.log(a);
 
-//  undefined
-let b
-console.log(b);
+// //  undefined
+// let b
+// console.log(b);
 
 
 
@@ -56,9 +56,9 @@ console.log(b);
 
 // alert(`Assalomu alaykum ${ism} siz ${2026-age}-yilda tugilgan ekansiz`) 
 // ENg kop ishlatiladigan string datatypening metodlari
-const ism=prompt('Avtomobillar turi')
+// const ism=prompt('Avtomobillar turi')
 
-console.log(ism.trim().length)
+// console.log(ism.trim().length)
 // console.log(ism.toUpperCase());
 // console.log(ism.toLowerCase());
 // console.log(ism.includes("A"));
